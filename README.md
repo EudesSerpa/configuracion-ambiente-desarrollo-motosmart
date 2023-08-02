@@ -97,14 +97,14 @@ En esta sección, instalaremos Ruby utilizando Rbenv.
    ```
 
 3. Instala Rbenv:
-   ```bash
+```bash
   curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
-   ```
+```
 
    Si obtienes un error, puedes intentar instalarlo mediante apt:
-    ```bash
-    sudo apt install rbenv
-    ```
+ ```bash
+ sudo apt install rbenv
+ ```
     
 4. Agrega rbenv a las variables de entorno:
    ```bash
