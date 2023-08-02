@@ -177,16 +177,18 @@ En esta sección, instalaremos Ruby utilizando Rbenv.
     ```
     
     En caso de error con PG:
-        12.1. Instalamos la dependencia libpq:
-        ```bash
-        sudo apt install libpq-dev
-        ```
-        12.2. Instalamos PG versión 1.5.3:
-        ```bash
-        gem install pg -v 1.5.3
-        ```
 
-    Volvemos a instalar las gemas del proyecto.
+12.1. Instalamos la dependencia libpq:
+```bash
+sudo apt install libpq-dev
+```
+
+12.2. Instalamos PG versión 1.5.3:
+```bash
+gem install pg -v 1.5.3
+```
+
+Volvemos a instalar las gemas del proyecto **paso 12**.
 
 13. Instala Rails en la versión 6.1.4.1:
     ```bash
