@@ -1,6 +1,8 @@
 # Guía de Configuración del Entorno de Desarrollo para MotoSmart
 
-¡Bienvenido a la guía de configuración del entorno de trabajo para el desarrollo de software en MotoSmart! Aquí encontrarás todos los pasos necesarios para configurar tu entorno y comenzar a trabajar en emocionantes soluciones. Sigamos adelante y contribuyamos juntos al éxito de MotoSmart.
+¡Bienvenido a la guía de configuración del entorno de trabajo para el desarrollo de software en MotoSmart! 
+Aquí encontrarás todos los pasos necesarios para configurar tu entorno y comenzar a trabajar en emocionantes soluciones. 
+Sigamos adelante y contribuyamos juntos al éxito de MotoSmart.
 
 ## Prerrequisitos
 
@@ -282,6 +284,11 @@ En esta etapa, configuraremos la base de datos PostgreSQL.
     ```bash
     rails db:create db:migrate
     ```
+
+### Consideraciones:
+El cambio de nombre de la base de datos es para que funcione en nuestro sistema en caso de errores. 
+Se debe verificar que este archivo esté en el ```.gitignore``` para que al contribuir al proyecto no 
+afecte a la configuración ya establecida y que todos los demás integrantes tienen.
 
 ## Paso 5: Ejecución del Proyecto
 
